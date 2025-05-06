@@ -270,7 +270,7 @@ const requestPasswordReset = async (req) => {
     expiresIn: 900,
   });
 
-  const link = `http://localhost:3090/reset-password?token=${resetToken}&userId=${user._id}`;
+  const link = `axonai.tech/reset-password?token=${resetToken}&userId=${user._id}`;
 
   if (emailEnabled) {
     await sendEmail({
