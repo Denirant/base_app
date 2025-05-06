@@ -1,0 +1,19 @@
+{
+    "features": [
+      {
+        "name": "Deep Search",
+        "description": "Deep Search description",
+        "category": "Search",
+        "plans": ["Lite", "Plus", "Pro"]
+      },
+      {
+        "name": "",
+        "description": "",
+        "category": "",
+        "plans": {
+            "Plus": "Example: 10 RPM (запросов в месяц)",
+            "Pro": "Example: 50 RPM (запросов в месяц)"
+        }
+      }
+    ]
+  }
