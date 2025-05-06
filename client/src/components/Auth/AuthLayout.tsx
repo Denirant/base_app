@@ -65,7 +65,7 @@ function AuthLayout({
           <img
             src="/assets/logo.svg"
             className="object-contain mr-auto absolute top-6 left-6 h-14 w-14 bg-cover p-2"
-            alt={localize('com_ui_logo', { 0: startupConfig?.appTitle ?? 'LibreChat' })}
+            alt={localize('com_ui_logo', { 0: 'AxonAI' })}
           />
 
           <ThemeSelector />
